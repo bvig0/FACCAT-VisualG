@@ -21,6 +21,7 @@ Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Digite o número de carros vendidos: ")
    leia(carrosVendidos)
+
    escreva("Digite o valor total das vendas: ")
    leia(vendas)
    
@@ -36,3 +37,4 @@ Inicio
 
 
 Fimalgoritmo
+
