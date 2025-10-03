@@ -1,31 +1,31 @@
 Algoritmo "EX13-Media_ponderada"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 22/09/2025
 
-//13) Faça um algoritmo que leia três notas de um aluno, calcule e escreva
-//a média final deste aluno. Considerar que a média é ponderada e que
-//o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média final é:
+//13) FaÃ§a um algoritmo que leia trÃªs notas de um aluno, calcule e escreva
+//a mÃ©dia final deste aluno. Considerar que a mÃ©dia Ã© ponderada e que
+//o peso das notas Ã© 2, 3 e 5. FÃ³rmula para o cÃ¡lculo da mÃ©dia final Ã©:
 
 Var
-   // Seção de Declarações das variáveis
-   nota1, nota2, nota3, soma, somaPesos, resultado:real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   nota1, nota2, nota3, soma, resultado:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreva("Digite o valor da 1° nota: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreva("Digite o valor da 1Â° nota: ")
    Leia(nota1)
-   Escreva("Digite o valor da 2° nota: ")
+   Escreva("Digite o valor da 2Â° nota: ")
    Leia(nota2)
-   Escreva("Digite o valor da 3° nota: ")
+   Escreva("Digite o valor da 3Â° nota: ")
    Leia(nota3)
 
    soma <- (nota1 * 2) + (nota2 * 3) + (nota3 * 5)
-   somaPesos <- 2 + 3 + 5
-   resultado <- soma / somaPesos
+   resultado <- soma / 10
 
-   Escreval("A média do aluno foi de: ",resultado)
+   Escreval("A mÃ©dia do aluno foi de: ",resultado)
+
 
 Fimalgoritmo
