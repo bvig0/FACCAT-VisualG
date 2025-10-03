@@ -1,37 +1,38 @@
 Algoritmo "EX11-Comissao"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 22/09/2025
 
-// 11) Uma revendedora de carros usados paga a seus funcionários vendedores
-//um salário fixo por mês, mais uma comissão também fixa para cada carro
+// 11) Uma revendedora de carros usados paga a seus funcionÃ¡rios vendedores
+//um salÃ¡rio fixo por mÃªs, mais uma comissÃ£o tambÃ©m fixa para cada carro
 //vendido e mais 5% do valor das vendas por ele efetuadas. Escrever
-//um algoritmo que leia o número de carros por ele vendidos, o valor total
-//de suas vendas, o salário fixo e o valor que ele recebe por carro vendido.
-//Calcule e escreva o salário final do vendedor.
+//um algoritmo que leia o nÃºmero de carros por ele vendidos, o valor total
+//de suas vendas, o salÃ¡rio fixo e o valor que ele recebe por carro vendido.
+//Calcule e escreva o salÃ¡rio final do vendedor.
 
 Var
-   // Seção de Declarações das variáveis
-   salarioFixo, vendas, comissao: real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   salario, vendas, comissao: real
    carrosVendidos : inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Digite o número de carros vendidos: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva("Digite o nÃºmero de carros vendidos: ")
    leia(carrosVendidos)
    escreva("Digite o valor total das vendas: ")
    leia(vendas)
    
-   escreva("Digite o salário fixo: ")
+   escreva("Digite o salÃ¡rio fixo: ")
    leia(salario)
    
-   escreva("Digite a comissão fixa por carro vendido: ")
+   escreva("Digite a comissÃ£o fixa por carro vendido: ")
    leia(comissao)
 
    salario <- salario + (carrosVendidos * comissao) + vendas * 0.05)
 
-   escreval("O salário final do vendedor é: R$ ", salario:8:2)
+   escreval("O salÃ¡rio final do vendedor Ã©: R$ ", salario:8:2)
+
 
 Fimalgoritmo
